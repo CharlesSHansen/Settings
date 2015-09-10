@@ -1,0 +1,18 @@
+#!/bin/bash
+status=$(sudo iwgetid -r)
+GRN='\033[0;32m'
+NC='\033[0;0m'
+RED='\033[0;31m'
+if [[ ! $status ]]
+then
+    #printf "${RED}Down${NC}"
+    echo "Down"
+    printf "\n"
+    echo \#FF0000
+else
+    printf "%s" $status
+    printf "\n\n"  
+    echo \#00FF00
+    #printf "${GRN}%s${NC}" $status
+fi
+

@@ -1,0 +1,11 @@
+#!/bin/bash
+status=$(/usr/share/i3blocks/volume)
+muted="MUTE"
+if [[ $status == $muted ]]
+then
+    echo "MUTED"
+    echo
+    echo "#FF0000"
+else
+    echo $status
+fi

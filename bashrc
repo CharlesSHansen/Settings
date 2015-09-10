@@ -121,9 +121,10 @@ alias cam2="ssh cshansen@ee220cpc2.ecn.purdue.edu"
 #alias cam2_sshfs="sshfs cshansen@ee220cpc2.ecn.purdue.edu:/ /home/cshansen/CAM2"
 sshfs() {
     if [[ $@ == "cam2" ]]; then
-	command sshfs cshansen@ee220cpc2.ecn.purdue.edu:/ /home/cshansen/CAM2
+	command sshfs cshansen@ee220cpc2.ecn.purdue.edu:/ /home/cshansen/SSHFS
     else
 	command sshfs "$@"
     fi
     }
-alias audio="pavucontrol"
+export PATH="/home/cshansen/bin:$PATH"
+alias ssh_home="ssh cshansen@172.31.11.101"

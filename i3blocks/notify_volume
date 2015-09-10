@@ -1,0 +1,3 @@
+#!/bin/bash
+i3PID=$(pidof i3blocks)
+kill -s SIGRTMIN+10 $i3PID
