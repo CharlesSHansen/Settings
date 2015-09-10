@@ -11,7 +11,7 @@ then
     echo \#FF0000
 else
     echo "${status}"
-    printf "\n\n"  
+    printf "\n"  
     echo \#00FF00
     #printf "${GRN}%s${NC}" $status
 fi
