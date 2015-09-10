@@ -10,7 +10,7 @@ then
     printf "\n"
     echo \#FF0000
 else
-    echo "${status}"
+    printf "%s" $status
     printf "\n\n"  
     echo \#00FF00
     #printf "${GRN}%s${NC}" $status
