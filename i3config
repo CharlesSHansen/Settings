@@ -197,8 +197,8 @@ set $base0F #cc6633
 #i3 color		border      bg	        text
 client.unfocused		$base00	    $base02     $base0C
 client.focused			$base01	    $base03     $base0B	    
-client.focused_inactive $base00	    $base09     $base0D
-client.urgent		$base10	    $base02	$base01
+client.focused_inactive $base03	    $base01     $base08
+client.urgent		$base09	    $base09	$base0D
 
 
 #Mouse Focus Off

@@ -1,0 +1,39 @@
+[global_config]
+  always_split_with_profile = True
+[keybindings]
+  switch_to_tab_10 = <Primary>0
+  switch_to_tab_6 = <Primary>6
+  switch_to_tab_7 = <Primary>7
+  switch_to_tab_4 = <Primary>4
+  switch_to_tab_5 = <Primary>5
+  switch_to_tab_2 = <Primary>2
+  switch_to_tab_3 = <Primary>3
+  switch_to_tab_1 = <Primary>1
+  switch_to_tab_8 = <Primary>8
+  switch_to_tab_9 = <Primary>9
+[profiles]
+  [[default]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    background_image = None
+    background_darkness = 0.75
+    background_type = transparent
+    use_system_font = False
+    show_titlebar = False
+    font = Source Code Pro Medium 13
+  [[monokai]]
+    use_system_font = False
+    background_darkness = 0.8
+    background_type = transparent
+    background_image = None
+    show_titlebar = False
+    font = Source Code Pro Medium 13
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = monokai
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
