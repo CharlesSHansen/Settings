@@ -44,6 +44,7 @@ dpkg-reconfigure lightdm;
 apt-get install emacs;
 apt-get install vim;
 apt-get install eclipse;
+apt-get install texlive-full;
 
 #Music
 apt-get install mpd;

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+display_song() {
+        status=
+	color=
+	case $(mpc status | sed 1d | head -n1 | awk '{ print $1 }') in
+	    '[playing]')
+		status=
+		color='#36a8d5'
+		;;
+	    '[paused]')
+		status=
+		color=
+		;;
+	esac
+	echo "$1 ${status}"
+}
+
+display_song "$(mpc current)"
+
+case $BLOCK_BUTTON in
+    1) terminator -e ncmpcpp;;
+    3) mpc toggle >/dev/null;;
+    4) mpc prev;;
+    5) mpc next;;
+esac
+
