@@ -116,15 +116,19 @@ if [ -n "$DISPLAY" ]; then
     xset b off
     fi
 
+#Add bin to path
+export PATH=/home/cshansen/bin:$PATH
+
 #Aliases
 alias cam2="ssh cshansen@ee220cpc2.ecn.purdue.edu"
-#alias cam2_sshfs="sshfs cshansen@ee220cpc2.ecn.purdue.edu:/ /home/cshansen/CAM2"
+alias live_docker="ssh camcam@cam2.ecn.purdue.edu"
+#alias emacs="emacs -nw"
 sshfs() {
     if [[ $@ == "cam2" ]]; then
-	command sshfs cshansen@ee220cpc2.ecn.purdue.edu:/ /home/cshansen/SSHFS
+	command sshfs cshansen@ee220cpc2.ecn.purdue.edu:/ ~/SSHFS
     else
 	command sshfs "$@"
     fi
     }
-export PATH="/home/cshansen/bin:$PATH"
-alias ssh_home="ssh cshansen@172.31.11.101"
+
+amixer -c 0 cset name='IEC958 Playback Switch' on >/dev/null

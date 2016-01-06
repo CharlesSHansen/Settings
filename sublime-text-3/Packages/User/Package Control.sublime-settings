@@ -1,0 +1,20 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoAligner",
+		"BracketHighlighter",
+		"Dotfiles Syntax Highlighting",
+		"KeyboardSpellCheck",
+		"LaTeXing",
+		"One Dark Material - Theme",
+		"Package Control",
+		"sublemacspro",
+		"tabr",
+		"Theme - Afterglow"
+	]
+}
