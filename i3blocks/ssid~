@@ -16,6 +16,3 @@ else
     #printf "${GRN}%s${NC}" $status
 fi
 
-case $BLOCK_BUTTON in
-    1) nm-applet;;
-esac

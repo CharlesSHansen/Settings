@@ -21,12 +21,18 @@ apt-get install arandr;
 apt-get install nitrogen;
 apt-get install feh;
 apt-get -f install;
-apt-get install python-pip;
-apt-get install git;
 apt-get install krita;
 apt-get install scrot;
 apt-get install zip;
 apt-get install unzip;
+apt-get install evince;
+apt-get install vlc;
+apt-get install libreoffice;
+
+#Programming
+apt-get install python-pip;
+apt-get install gdb;
+apt-get install git;
 
 #Fonts
 apt-get install fonts-font-awesome;
@@ -50,6 +56,7 @@ apt-get install texlive-full;
 apt-get install mpd;
 apt-get install ncmpcpp;
 apt-get install pavucontrol;
+apt-get install pianobar;
 
 #Internet
 apt-get install chromium;

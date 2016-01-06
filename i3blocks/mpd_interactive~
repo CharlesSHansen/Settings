@@ -13,7 +13,7 @@ display_song() {
 		color=
 		;;
 	esac
-	echo "$1  ${status}"
+	echo "$1 ${status}"
 }
 
 display_song "$(mpc current)"
