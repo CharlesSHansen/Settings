@@ -1,0 +1,2 @@
+#!/bin/bash
+jmtpfs -o allow_other /media/GalaxyNexus/

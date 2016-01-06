@@ -1,0 +1,1 @@
+{"platforms": ["*"], "sublime_text": "*", "dependencies": [], "url": "https://github.com/generall/aligner", "version": "1.0.2", "description": "Sublime Text plugin for automatic code alignment."}

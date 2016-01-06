@@ -1,0 +1,20 @@
+{
+	"added_words":
+	[
+		"anaphylaxis",
+		"photoreceptors",
+		"Cavefish",
+		"cnidaria",
+		"cephalopods"
+	],
+	"color_scheme": "Packages/Color-Sublime/DeerAntlerDark.tmTheme",
+	"font_face": "Source Code Pro",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"tabr",
+		"Vintage"
+	],
+	"status_bar_brighter": true,
+	"theme": "Afterglow-orange.sublime-theme"
+}

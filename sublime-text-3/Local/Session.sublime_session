@@ -1,0 +1,734 @@
+{
+	"folder_history":
+	[
+		"/home/cshansen/School_Programming/30862/ZorkProject",
+		"/home/cshansen/School_Programming/30862/ZorkProject/samples",
+		"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml-1.13",
+		"/home/cshansen/Videos",
+		"/home/cshansen/Templates",
+		"/home/cshansen/SSHFS",
+		"/home/cshansen/School_Programming",
+		"/home/cshansen/Public",
+		"/home/cshansen/Projects",
+		"/home/cshansen/Pictures",
+		"/home/cshansen/Music",
+		"/home/cshansen/Games",
+		"/home/cshansen/Drivers",
+		"/home/cshansen/Downloads",
+		"/home/cshansen/Documents",
+		"/home/cshansen/Desktop",
+		"/home/cshansen/bin",
+		"/home/cshansen/SSHFS/home/cshansen/BigData",
+		"/home/cshansen/SSHFS/home/cshansen/BigData/django/system/views"
+	],
+	"last_version": 3083,
+	"last_window_id": 18,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1045.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"curren",
+						"currentRoom"
+					],
+					[
+						"error",
+						"error_calc_ind"
+					],
+					[
+						"Y",
+						"Y"
+					],
+					[
+						"matrix",
+						"Matrix"
+					],
+					[
+						"mul",
+						"matmul202"
+					],
+					[
+						"cnt",
+						"cnt"
+					],
+					[
+						"current_brighness",
+						"current_brightness"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 204.0,
+				"last_filter": "install",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"package control",
+						"Package Control: Disable Package"
+					],
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 601.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/cshansen/School_Programming/30862/ZorkProject/creaturesample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/itemsample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/containersample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/containersample.out",
+				"/home/cshansen/School_Programming/30862/ZorkProject/sample.txt.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Zork.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/creaturesample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/creaturesample.txt",
+				"/home/cshansen/School_Programming/202/PROJ2/project2.py",
+				"/home/cshansen/School_Programming/202/PROJ3/project3.py",
+				"/home/cshansen/School_Programming/202/PROJ3/ode202.py",
+				"/home/cshansen/School_Programming/.git/MERGE_MSG",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Item.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Zork.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/containersample.xml",
+				"/home/cshansen/.config/sublime-text-3/Packages/Alignment/Base File.sublime-settings",
+				"/home/cshansen/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+				"/home/cshansen/.config/sublime-text-3/Packages/tabr/Default (Linux).sublime-keymap",
+				"/home/cshansen/School_Programming/202/PROJ1/ode202.py",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Object.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Trigger.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Trigger.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Room.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Room.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml_utils.hpp.gch",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml_utils.hpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml_print.hpp.gch",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml_print.hpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml_iterators.hpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml.hpp.gch",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml.hpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Item.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Creature.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Creature.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Container.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Container.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Condition.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Condition.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/itemsample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/itemsample.txt",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/containersample.txt",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/roomsample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Container.h.gch",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/README",
+				"/home/cshansen/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/cshansen/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/cshansen/School_Programming/202/PROJ3/part_7.txt",
+				"/home/cshansen/School_Programming/202/PROJ3/proj3.pdf",
+				"/home/cshansen/ECE-30862-Java-Game/game/src/com/brackeen/javagamebook/tilegame/ResourceManager.java",
+				"/home/cshansen/ECE-30862-Java-Game/game/maps/map2.txt",
+				"/home/cshansen/ECE-30862-Java-Game/game/maps/map1.txt",
+				"/home/cshansen/ECE-30862-Java-Game/allsrc/ch02src/build.xml",
+				"/home/cshansen/ECE-30862-Java-Game/allsrc/ch02src/FullScreenTest.java",
+				"/home/cshansen/skype-install.deb",
+				"/home/cshansen/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/cshansen/School_Programming/30862/HW1-Submitted/L01Student/Test.java",
+				"/home/cshansen/Projects/Tasks/tasks.py",
+				"/home/cshansen/School_Programming/30862/HW11/hw11/Main.java",
+				"/home/cshansen/Downloads/README.TXT",
+				"/home/cshansen/Documents/School/PHIL_110/paper_1.tex",
+				"/home/cshansen/Documents/Resume/resume.tex",
+				"/home/cshansen/School_Programming/202/ode202.py",
+				"/home/cshansen/School_Programming/202/table",
+				"/home/cshansen/Documents/Resume/resume.",
+				"/home/cshansen/Documents/resume.tex",
+				"/home/cshansen/resume",
+				"/home/cshansen/Downloads/cv_10.tex",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/camera/Add_cameras/addCamera.py",
+				"/home/cshansen/.sublime/text",
+				"/home/cshansen/.i3/i3blocks/inc_brightness.py",
+				"/home/cshansen/.i3/i3blocks/dec_brightness.py",
+				"/home/cshansen/.i3/i3blocks/current_brightness",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/static/js/Browse.js",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/templates/browse_configurations.html",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/system/views/config.py",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/mysite/models.py",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/templates/browse_modules.html",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/static/js/map/DynamicConfig.js",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/static/js/map/MapInitialize.js",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/static/js/map/FilterConfig.js",
+				"/etc/lightdm/lightdm.conf",
+				"/home/cshansen/To_Do_Setup",
+				"/home/cshansen/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 104.0,
+				"where_history":
+				[
+					"<current file>",
+					"<open folders>",
+					"<current file>"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"  //check if container is in room && is open\n  obj = strtok(c, \" \");\n",
+					"  //check if container is in room && is open\nobj = strtok(c, \" \");\n",
+					"inventory",
+					"charles",
+					"print",
+					"numpy",
+					"print",
+					"300",
+					"lenC2",
+					"lenB2",
+					"lenB1",
+					"\\\\",
+					"\\",
+					"\\\\",
+					"font",
+					"color",
+					"main",
+					"face",
+					"browse_configs"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"obj = strtok(NULL, \" \");\n",
+					"80",
+					"lenX2",
+					"lenA2",
+					"lenA1"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 228.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1916.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"curren",
+						"currentRoom"
+					],
+					[
+						"error",
+						"error_calc_ind"
+					],
+					[
+						"Y",
+						"Y"
+					],
+					[
+						"matrix",
+						"Matrix"
+					],
+					[
+						"mul",
+						"matmul202"
+					],
+					[
+						"cnt",
+						"cnt"
+					],
+					[
+						"current_brighness",
+						"current_brightness"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "\n\nWhat are three dimensions of social stratification?\n\nWhat are three systems of social stratification?  How are they different from one another?\n\nCompare Karl Marx and Max Weber in terms of their ways of defining social class.  What are the main arguments on social class?\n\nWhat is \"power elite\" and who are they?  What is an example of power elite in the U.S.?\n\nWhat are features of jobs to which people give more prestige?\n\nWhat is \"status inconsistency?\"  What is the political consequence of experiencing status inconsistency?\n\nWhat are the 6 categories of social class ladder?  What is the unique feature of \"working poor?\"\n\nHow does social inequality affect health?  What is the relationship between social class and helath?\n\nWhat is the rationale for justiication of social inequality?  What is the major sociological theory that fits well with this rationale?\n\nWhat are social problems that arise from social inequality?  What is the relationship between civic participation and social inequality?\n\nWhat are four types of social mobility?\n\nHow can you define \"open society\" in relation to social mobility?  If there is little connection between a parents' and children's place in life, is it a high-mobility soiety?\n\nWho are the poor?  Are most of the poor african-americans?  Most poor people are poor because they do not want to work?\n\nWhat is the feminization of poverty?\n\nHow does income inequality in the US compare?\n\nWhat is race?  What is ethnicity?  How are race and ethnicity different from each other?\n\nWhy do sociologists argue that race is a social construct?  What is one-drop rule?\n\nHow does U.S. government define race?  Are Hispanics an ethnic group or a racial group according to the U.S. government?\n\nWhat is institutional racial discrimination?  What are some of the examples of institutional racial discrimination?\n\nHow is income related to race?\n\nWhat are the pathways through which resedential racial segregation can adversely affect African American's health?\n\nWhat is Hispanic paradox?  How can we explain Hispanic paradox?\n\nWhat is the relationship between race and intelligence?  Does race determine intelligence?\n\nWhat is sex?  What is gender?  How do they differ?\n\nWhat is the concept of \"doing gender?\"\n\nWhat is the trend of gender gap in pay?\n\nWhat is the pattern of gender pay gap by education?\n\nWhat can account for gender pay gap?  What is child penalty?  What is motherhood penalty?\n\nWhat is glass ceiling?  Why is it so powerful in the U.S.?\n\nWhat is honor killing?  What is the reason for honor killing?\n\nHow can sex-ratio theory contribute to enhancing our understanding of the romantic relationship between men and women?\n",
+					"settings":
+					{
+						"buffer_size": 2669,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 204.0,
+				"last_filter": "install",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"package control",
+						"Package Control: Disable Package"
+					],
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 601.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/cshansen/School_Programming/30862/ZorkProject/creaturesample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/itemsample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/containersample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/containersample.out",
+				"/home/cshansen/School_Programming/30862/ZorkProject/sample.txt.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Zork.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/creaturesample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/creaturesample.txt",
+				"/home/cshansen/School_Programming/202/PROJ2/project2.py",
+				"/home/cshansen/School_Programming/202/PROJ3/project3.py",
+				"/home/cshansen/School_Programming/202/PROJ3/ode202.py",
+				"/home/cshansen/School_Programming/.git/MERGE_MSG",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Item.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Zork.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/containersample.xml",
+				"/home/cshansen/.config/sublime-text-3/Packages/Alignment/Base File.sublime-settings",
+				"/home/cshansen/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+				"/home/cshansen/.config/sublime-text-3/Packages/tabr/Default (Linux).sublime-keymap",
+				"/home/cshansen/School_Programming/202/PROJ1/ode202.py",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Object.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Trigger.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Trigger.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Room.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Room.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml_utils.hpp.gch",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml_utils.hpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml_print.hpp.gch",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml_print.hpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml_iterators.hpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml.hpp.gch",
+				"/home/cshansen/School_Programming/30862/ZorkProject/rapidxml.hpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Item.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Creature.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Creature.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Container.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Container.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Condition.h",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Condition.cpp",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/itemsample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/itemsample.txt",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/containersample.txt",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/roomsample.xml",
+				"/home/cshansen/School_Programming/30862/ZorkProject/Container.h.gch",
+				"/home/cshansen/School_Programming/30862/ZorkProject/samples/README",
+				"/home/cshansen/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/cshansen/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/cshansen/School_Programming/202/PROJ3/part_7.txt",
+				"/home/cshansen/School_Programming/202/PROJ3/proj3.pdf",
+				"/home/cshansen/ECE-30862-Java-Game/game/src/com/brackeen/javagamebook/tilegame/ResourceManager.java",
+				"/home/cshansen/ECE-30862-Java-Game/game/maps/map2.txt",
+				"/home/cshansen/ECE-30862-Java-Game/game/maps/map1.txt",
+				"/home/cshansen/ECE-30862-Java-Game/allsrc/ch02src/build.xml",
+				"/home/cshansen/ECE-30862-Java-Game/allsrc/ch02src/FullScreenTest.java",
+				"/home/cshansen/skype-install.deb",
+				"/home/cshansen/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/cshansen/School_Programming/30862/HW1-Submitted/L01Student/Test.java",
+				"/home/cshansen/Projects/Tasks/tasks.py",
+				"/home/cshansen/School_Programming/30862/HW11/hw11/Main.java",
+				"/home/cshansen/Downloads/README.TXT",
+				"/home/cshansen/Documents/School/PHIL_110/paper_1.tex",
+				"/home/cshansen/Documents/Resume/resume.tex",
+				"/home/cshansen/School_Programming/202/ode202.py",
+				"/home/cshansen/School_Programming/202/table",
+				"/home/cshansen/Documents/Resume/resume.",
+				"/home/cshansen/Documents/resume.tex",
+				"/home/cshansen/resume",
+				"/home/cshansen/Downloads/cv_10.tex",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/camera/Add_cameras/addCamera.py",
+				"/home/cshansen/.sublime/text",
+				"/home/cshansen/.i3/i3blocks/inc_brightness.py",
+				"/home/cshansen/.i3/i3blocks/dec_brightness.py",
+				"/home/cshansen/.i3/i3blocks/current_brightness",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/static/js/Browse.js",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/templates/browse_configurations.html",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/system/views/config.py",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/mysite/models.py",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/templates/browse_modules.html",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/static/js/map/DynamicConfig.js",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/static/js/map/MapInitialize.js",
+				"/home/cshansen/SSHFS/home/cshansen/BigData/django/static/js/map/FilterConfig.js",
+				"/etc/lightdm/lightdm.conf",
+				"/home/cshansen/To_Do_Setup",
+				"/home/cshansen/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 104.0,
+				"where_history":
+				[
+					"<current file>",
+					"<open folders>",
+					"<current file>"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"  //check if container is in room && is open\n  obj = strtok(c, \" \");\n",
+					"  //check if container is in room && is open\nobj = strtok(c, \" \");\n",
+					"inventory",
+					"charles",
+					"print",
+					"numpy",
+					"print",
+					"300",
+					"lenC2",
+					"lenB2",
+					"lenB1",
+					"\\\\",
+					"\\",
+					"\\\\",
+					"font",
+					"color",
+					"main",
+					"face",
+					"browse_configs"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"obj = strtok(NULL, \" \");\n",
+					"80",
+					"lenX2",
+					"lenA2",
+					"lenA1"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2669,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										583,
+										583
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_name": "",
+									"bh_regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 342.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,0,16,1916,1061,3840,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 228.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 18,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
