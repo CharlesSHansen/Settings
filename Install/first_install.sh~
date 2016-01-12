@@ -16,6 +16,7 @@ cp /home/cshansen/Documents/Settings/i3blocks /usr/share/
 #General Utilities
 apt-get install sudo -y;
 useradd -g cshansen sudo;
+<<<<<<< HEAD
 apt-get install terminator -y;
 apt-get install arandr -y;
 apt-get install nitrogen -y;
@@ -27,6 +28,25 @@ apt-get install krita -y;
 apt-get install scrot -y;
 apt-get install zip -y;
 apt-get install unzip -y;
+=======
+apt-get install terminator;
+apt-get install arandr;
+apt-get install nitrogen;
+apt-get install feh;
+apt-get -f install;
+apt-get install krita;
+apt-get install scrot;
+apt-get install zip;
+apt-get install unzip;
+apt-get install evince;
+apt-get install vlc;
+apt-get install libreoffice;
+
+#Programming
+apt-get install python-pip;
+apt-get install gdb;
+apt-get install git;
+>>>>>>> 182803723c06d0f87cf6ca23dcb184699fabe148
 
 #Fonts
 apt-get install fonts-font-awesome -y;
@@ -47,10 +67,17 @@ apt-get install eclipse -y;
 apt-get install texlive-full -y;
 
 #Music
+<<<<<<< HEAD
 apt-get install mpd -y;
 apt-get install mpc -y;
 apt-get install ncmpcpp -y;
 apt-get install pavucontrol -y;
+=======
+apt-get install mpd;
+apt-get install ncmpcpp;
+apt-get install pavucontrol;
+apt-get install pianobar;
+>>>>>>> 182803723c06d0f87cf6ca23dcb184699fabe148
 
 #Internet
 apt-get install chromium -y;
