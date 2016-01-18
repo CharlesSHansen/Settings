@@ -21,7 +21,7 @@ apt-get install arandr;
 apt-get install nitrogen;
 apt-get install feh;
 apt-get -f install;
-apt-get install krita;
+apt-get install pinta;
 apt-get install scrot;
 apt-get install zip;
 apt-get install unzip;
