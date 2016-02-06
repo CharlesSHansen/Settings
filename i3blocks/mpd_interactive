@@ -1,19 +1,20 @@
 #!/bin/bash
 
 display_song() {
-        status=
-	color=
-	case $(mpc status | sed 1d | head -n1 | awk '{ print $1 }') in
-	    '[playing]')
-		status=
-		color='#36a8d5'
-		;;
-	    '[paused]')
-		status=
-		color=
-		;;
-	esac
-	echo "$1  ${status}"
+    status="<span bgcolor='#9A64D9' font='9'>      </span>"
+
+    case $(mpc status | sed 1d | head -n1 | awk '{ print $1 }') in
+	'[playing]')
+	    status="<span bgcolor='#9A64D9'> </span>"
+	    #		color='#36a8d5'
+	    ;;
+	'[paused]')
+	    status="<span bgcolor='#9A64D9'> </span>"
+	    ###		color=
+	    ;;
+    esac
+    echo -n "<span bgcolor='#9A64D9'> $1  </span>"
+    echo "${status}"
 }
 
 display_song "$(mpc current)"

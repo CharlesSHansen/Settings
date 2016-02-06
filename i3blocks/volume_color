@@ -3,9 +3,7 @@ status=$(/usr/share/i3blocks/volume)
 muted="MUTE"
 if [[ $status == $muted ]]
 then
-    echo "MUTED"
-    echo
-    echo "#FF0000"
+    echo "<span bgcolor='#FFFC1D' fgcolor='#FF254B' font='10'>🔇</span><span bgcolor='#FFFC1D' fgcolor='#FF254b'> MUTED </span>"
 else
-    echo $status
+    echo "<span bgcolor='#FFFC1D' fgcolor='#8E2DFF'> $status </span>"
 fi

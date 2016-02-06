@@ -3,17 +3,14 @@ status=$(sudo iwgetid -r)
 GRN='\033[0;32m'
 NC='\033[0;0m'
 RED='\033[0;31m'
+
 if [[ ! $status ]]
 then
-    #printf "${RED}Down${NC}"
-    echo "Down"
+    echo "<span bgcolor='#3153FF' fgcolor='#A54242'>  Down </span>"
     printf "\n"
-    echo \#FF0000
 else
-    echo "${status}"
+    echo "<span bgcolor='#3153FF' fgcolor='#24FF36'>  ${status} </span>"
     printf "\n"  
-    echo \#00FF00
-    #printf "${GRN}%s${NC}" $status
 fi
 
 case $BLOCK_BUTTON in
