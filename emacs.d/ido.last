@@ -1,0 +1,54 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/usr/share/" . "i3blocks/")
+ ("/usr/" . "share/")
+ ("/" . "usr/")
+ ("/sudo:root@localhost:/usr/share/" . "i3blocks/")
+ ("/sudo:root@localhost:/usr/" . "share/")
+ ("/sudo:root@localhost:/" . "usr/")
+ ("/home/chansen/.config/" . "i3/")
+ ("/home/chansen/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/chansen/.emacs.d/"
+ "/usr/share/i3blocks/"
+ "/sudo:localhost:"
+ "/home/chansen/.config/i3/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "volume_color"
+ "bandwidth"
+ "ssid"
+ "config"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/chansen/.emacs.d/" (22496 49993 935005 473000) "ido.last" "../" "ac-comphist.dat" "auto-save-list/" "elpa/" "%backup%~" "tramp" "init.el" "./")
+
+ ("/home/chansen/" (22496 51604 535700 306000) ".config/" ".ssh/" ".xsession-errors.old" "../" "bin/" ".cache/" "Downloads/" ".bash_logout" ".gnome2_private/" ".bash_history" ".profile" ".local/" "Documents/" ".bashrc" ".sudo_as_admin_successful" "Desktop/" ".dmrc" "Music/" ".gnupg/" ".gksu.lock" ".thunderbird/" ".xsession-errors" ".macromedia/" ".emacs.d/" "examples.desktop" ".Xauthority" "Public/" ".ncmpcpp/" ".dbus/" "Pictures/" ".fehbg" "Videos/" ".mozilla/" ".ICEauthority" ".adobe/" ".gnome2/" ".lesshst" "Templates/" ".lyrics/" ".gconf/" "./")
+
+ ("/etc/" (22496 49605 495326 792000) "ltrace.conf" "perl/" "sysstat/" "gnome/" "init.d/" "rc6.d/" "environment" "gai.conf" "libao.conf" "libaudit.conf" "mime.types" "selinux/" "avahi/" "passwd" "ld.so.conf.d/" "ssh/" "ucf.conf" "udisks2/" "aptdaemon/" "thunderbird/" "update-manager/" "ca-certificates/" "X11/" "bindresvport.blacklist" "mailcap.order" "network/" "gtk-3.0/" "mpd.conf" "gtk-2.0/" "ifplugd/" "modprobe.d/" "issue" "group-" "cron.monthly/" "update-notifier/" "apg.conf" "rc0.d/" "kernel/" "modules-load.d/" "apt/" "terminfo/" "at-spi2/" "zsh/" "manpath.config" "libpaper.d/" "vdpau_wrapper.cfg" "cupshelpers/" "zsh_command_not_found" "cron.d/" "deluser.conf" "chatscripts/" "lightdm/" "iproute2/" "dpkg/" "i3status.conf" "rc1.d/" "hp/" "protocols" "initramfs-tools/" "passwd-" "rc2.d/" "fonts/" "lighttpd/" "sensors3.conf" "fuse.conf" "thermald/" "gconf/" "ld.so.conf" "apache2/" "python3/" "openal/" "services" "nsswitch.conf" "apparmor.d/" "localtime" "os-release" "ppp/" "hosts" ".pwd.lock" "grub.d/" "pulse/" "tmpfiles.d/" "xml/" "papersize" "debian_version" "rc5.d/" "signond.conf" "bluetooth/" "libnl-3/" "mailcap" "locale.alias" "polkit-1/" "inputrc" "nanorc" "pam.d/" "guest-session/" "java-8-openjdk/" "timidity/" "networks" "drirc" "dconf/" "hosts.allow" "rc3.d/" "login.defs" "timezone" "cron.daily/" "python2.7/" "bash_completion.d/" "gss/" "sgml/" "dnsmasq.d/" "machine-id" "shadow-" "cron.hourly/" "cups/" "skel/" "sensors.d/" "rpc" "i3/" "gdb/" "security/" "LatexMk" "dictionaries-common/" "updatedb.conf" "i3blocks.conf~" "anacrontab" "debconf.conf" "wgetrc" "python/" "hdparm.conf" "logrotate.d/" "subuid" "i3blocks.conf" "subgid" "update-motd.d/" "rcS.d/" "pki/" "NetworkManager/" "shadow" "brltty.conf" "sysctl.d/" "mtools.conf" "default/" "brltty/" "locale.gen" "logcheck/" "init/" "usb_modeswitch.d/" "popularity-contest.conf" "resolvconf/" "rsyslog.d/" "brlapi.key" "magic.mime" "gnome-app-install/" "issue.net" "doc-base/" "emacs/" "modules" "ldap/" "crontab" "bonobo-activation/" "acpi/" "cracklib/" "apm/" "pam.conf" "tex4ht/" "firefox/" "pcmcia/" "xdg/" "opt/" "wpa_supplicant/" "texmf/" "sudoers" "speech-dispatcher/" "kbd/" "groff/" "systemd/" "pm/" "ca-certificates.conf" "calendar/" "wildmidi/" "ssl/" "gshadow-" "rc4.d/" "insserv.conf" "iftab" "chktexrc" "upstart-xsessions" "binfmt.d/" "bash_completion" "appstream.conf" "rmt" "pnm2ppa.conf" "ImageMagick-6/" "sysctl.conf" "udev/" "sane.d/" "signon-ui/" "ld.so.cache" "bash.bashrc" "dhcp/" "logrotate.conf" "legal" "apparmor/" "eclipse.ini" "hostname" "alternatives/" "fstab" "gnome-vfs-2.0/" "kernel-img.conf" "emacs24/" "apport/" "newt/" "rc.local" "securetty" "subgid-" "usb_modeswitch.conf" "vtrgb" ".java/" "depmod.d/" "libreoffice/" "profile" "dbus-1/" "host.conf" "console-setup/" "sudoers.d/" "group" "shells" "profile.d/" "insserv/" "lsb-release" "mke2fs.conf" "UPower/" "ufw/" "insserv.conf.d/" "rsyslog.conf" "kerneloops.conf" "vim/" "fwupd.conf" "python3.5/" "hosts.deny" "ghostscript/" "magic" "sound/" "compizconfig/" "resolv.conf" "gshadow" "cron.weekly/" "mtab" "subuid-" "lintianrc" "adduser.conf" "../" "./")
+
+ ("/usr/share/i3blocks/" (22496 49151 30452 399000) "memory" "cpu_usage" "../" "network" "volume_color" "battery" "load_average" "notify_brightness" "brightness" "disk_home" "openvpn" "bandwidth" "notify_volume" "ssid" "keyindicator" "volume" "date_interactive" "mpd_interactive" "wifi" "temperature" "disk" "mpdplaying" "iface" "mediaplayer" "./")
+
+ ("/usr/share/" (22496 48925 602483 949000) "perl/" "fonts-font-awesome/" "pyshared/" "gnome-vpn-properties/" "gnome/" "javascript/" "rhythmbox/" "unity-webapps/" "plainbox-provider-resource-generic/" "java-config/" "nano/" "directfb-1.2.10/" "plainbox-provider-checkbox/" "app-install/" "xdiagnose/" "feh/" "poppler/" "kservices5/" "p11-kit/" "url-dispatcher/" "unity/" "vte/" "java/" "avahi/" "language-support/" "thumbnailers/" "ppd/" "nautilus-share/" "qt4/" "file-roller/" "plainbox-providers-1/" "libnma/" "simple-scan/" "texlive/" "update-manager/" "app-info/" "command-not-found/" "ca-certificates/" "shotwell/" "locale-langpack/" "unattended-upgrades/" "X11/" "pavucontrol/" "nm-applet/" "lcdf-typetools/" "plymouth/" "bug/" "gnome-software/" "kservicetypes5/" "update-notifier/" "system-config-printer/" "guile/" "gst-plugins-base/" "gedit/" "latex-cjk-common/" "terminfo/" "m17n/" "python-apt/" "usb-creator/" "pkg-config-crosswrapper" "gnome-bluetooth/" "mousetweaks/" "zsh/" "aclocal/" "secureboot/" "gnome-2.0/" "distro-info/" "info/" "doc/" "bdf2psf/" "intel-gpu-tools/" "xsessions/" "hal/" "hplip/" "apturl/" "strigi/" "compiz/" "mozilla/" "pkgconfig/" "QtCurve/" "lightdm/" "libthai/" "dpkg/" "evolution-data-server/" "file/" "applications/" "consolefonts/" "man-db/" "tomcat7/" "maven-repo/" "gitweb/" "libtimezonemap/" "remmina/" "initramfs-tools/" "dnsmasq-base/" "seahorse/" "fonts/" "GeoIP/" "cogl/" "gdm/" "GConf/" "help-langpack/" "rubygems-integration/" "upstart/" "libnm-gtk/" "aspell/" "enchant/" "git-core/" "snmp/" "liblouisutdml/" "gconf/" "hunspell/" "software-properties/" "python3/" "unity-control-center/" "adduser/" "plasma/" "openal/" "base-passwd/" "libgksu/" "gnome-background-properties/" "netpbm/" "xml-core/" "ppp/" "deja-dup/" "desktop-directories/" "gettext/" "tcltk/" "gnome-user-share/" "ccsm/" "perl5/" "xml/" "mobile-broadband-provider-info/" "rsyslog/" "telepathy/" "language-selector/" "columbus1/" "polkit-1/" "gettext-0.19.7/" "example-content/" "nux/" "liblouis/" "onboard/" "dh-python/" "geoclue-providers/" "base-files/" "popularity-contest/" "kdevappwizard/" "gnome-shell/" "unity-scopes/" "binfmts/" "sounds/" "gnome-mahjongg/" "icons/" "sgml/" "qt5/" "ubufox/" "misc/" "gstreamer-1.0/" "cups/" "os-prober/" "media-player-info/" "gnupg/" "cm-super/" "language-tools/" "gdb/" "branding/" "dictionaries-common/" "lintian/" "librevenge/" "evince/" "color/" "texinfo/" "libc-bin/" "python/" "terminator/" "hyphen/" "myspell/" "libwacom/" "libgweather/" "djvu/" "session-migration/" "indicator-power/" "liblangtag/" "jarwrapper/" "linux-sound-base/" "indicator-application/" "webbrowser-app/" "pygtk/" "jetty8/" "gvfs/" "totem/" "aglfn/" "gnome-online-accounts/" "zeitgeist/" "emoticons/" "sysv-rc/" "hardening-includes/" "adium/" "brltty/" "awk/" "libexttextcat/" "debianutils/" "gtksourceview-3.0/" "readline/" "debhelper/" "yelp-xsl/" "mime/" "transmission/" "package-data-downloads/" "appdata/" "resolvconf/" "libsensors4/" "gksu/" "a11y-profile-manager/" "checkbox-converged/" "dict/" "backgrounds/" "usb_modeswitch/" "midi/" "ubuntu-drivers-common/" "foo2zjs/" "systemtap/" "alsa-base/" "eclipse/" "tex-common/" "doc-base/" "emacs/" "ibus/" "pkg-config-dpkghook" "mime-info/" "libaudio2/" "man/" "themes/" "orca/" "indicators/" "tex4ht/" "keyrings/" "kde4/" "metacity/" "ca-certificates-java/" "im-config/" "texmf/" "vlc/" "sgml-data/" "speech-dispatcher/" "gtk-doc/" "gnome-session/" "pam-configs/" "groff/" "consoletrans/" "systemd/" "calendar/" "color-schemes/" "python-wheels/" "notify-osd/" "acpi-support/" "libquvi-scripts/" "build-essential/" "mimelnk/" "common-licenses/" "libgnomekbd/" "colord/" "dns/" "ImageMagick-6/" "python3-plainbox/" "vino/" "bash-completion/" "yelp/" "xgreeters/" "gnome-control-center/" "zoneinfo/" "gcr-3/" "ant/" "aisleriot/" "kstyle/" "gtk-engines/" "iptables/" "application-registry/" "unity-greeter/" "apparmor/" "eog/" "ubuntu-release-upgrader/" "omf/" "pam/" "apps/" "hwdata/" "click/" "soprano/" "gutenprint/" "libparse-debianchangelog-perl/" "unifont/" "glib-2.0/" "pnm2ppa/" "activity-log-manager/" "i3blocks/" "libgphoto2/" "emacs24/" "apport/" "foo2qpdl/" "gcc-5/" "accountsservice/" "idl/" "gnome-mines/" "unity-settings-daemon/" "help/" "pixmaps/" "menu/" "content-hub/" "libreoffice/" "dbus-1/" "gnome-sudoku/" "gnome-video-effects/" "intltool-debian/" "console-setup/" "locale/" "grub/" "pulseaudio/" "fontconfig/" "ssl-cert/" "ubuntu/" "mythes/" "tabset/" "insserv/" "ufw/" "accounts/" "ibus-table/" "pstoedit/" "kf5/" "debconf/" "alsa/" "vim/" "zenity/" "locales/" "ghostscript/" "compizconfig/" "gnupg2/" "sgml-base/" "qtchooser/" "i18n/" "../" "./")
+
+ ("/usr/" (22414 37391 0 0) "share/" "../" "bin/" "include/" "games/" "local/" "sbin/" "lib/" "src/" "locale/" "./")
+
+ ("/home/chansen/.config/i3/" (22496 47199 686023 475000) "../" "config~" "config" "./")
+
+ ("/home/" (22496 33923 920972 329000) "../" "chansen/" "./")
+
+ ("/home/chansen/.config/" (22496 46141 283826 944000) "nautilus/" "unity/" "../" "gtk-3.0/" "update-notifier/" "gedit/" "upstart/" "libaccounts-glib/" "pulse/" "compiz-1/" "dconf/" "nitrogen/" "config/" "i3/" "terminator/" "ibus/" "gnome-session/" "user-dirs.locale" "evolution/" "user-dirs.dirs" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

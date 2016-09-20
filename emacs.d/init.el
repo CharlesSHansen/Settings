@@ -12,7 +12,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#242424" :foreground "#f6f3e8" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight semi-bold :height 114 :width normal :foundry "adobe" :family "Source Code Pro for Powerline")))))
+ ;; '(default ((t (:inherit nil :stipple nil :background "#242424" :foreground "#f6f3e8" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight semi-bold :height 114 :width normal :foundry "adobe" :family "Source Code Pro for Powerline")))))
+ )
 ;;(cua-mode t)
 (setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
 (transient-mark-mode 1)               ;; No region when it is not highlighted
@@ -22,7 +23,8 @@
   (add-to-list
    'package-archives
    '("melpa" . "http://melpa.org/packages/")
-   t)
+   '("marmalade" . "http://marmalade-repo.org/packages/")
+   )
   (package-initialize))
 (load-theme 'wombat t)
 (setq backup-directory-alist

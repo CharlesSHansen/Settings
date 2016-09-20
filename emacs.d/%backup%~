@@ -1,0 +1,19 @@
+#!/bin/bash
+status=$(sudo "iwgetid -r")
+GRN='\033[0;32m'
+NC='\033[0;0m'
+RED='\033[0;31m'
+
+if [[ ! $status ]]
+then
+    echo "<span fgcolor='#A54242'>  Down </span>"
+    printf "\n"
+else
+    #echo "<span fgcolor='#24FF36'>  ${status} </span>"
+    echo "   ${status} "
+    printf "\n"  
+fi
+
+case $BLOCK_BUTTON in
+    1) nm-applet;;
+esac

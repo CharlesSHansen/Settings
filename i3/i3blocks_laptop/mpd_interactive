@@ -1,0 +1,33 @@
+#!/bin/bash
+
+display_song() {
+    #status="<span bgcolor='#9A64D9' font='9'>      </span>"
+    status="  "
+    case $(mpc status | sed 1d | head -n1 | awk '{ print $1 }') in
+	'[playing]')
+	    #status="<span bgcolor='#9A64D9'> </span>"
+	    status=" "
+	#		color='#36a8d5'
+	    ;;
+	'[paused]')
+	    #status="<span bgcolor='#9A64D9'> </span>"
+	    status=" "
+	    ###		color=
+	    ;;
+    esac
+    #echo -n "<span bgcolor='#9A64D9'> $1  </span>"
+    echo -n "<span font='8'>"
+    echo -n "$1"
+    echo -n "${status}"
+    echo "</span>"
+}
+
+display_song "$(mpc current)"
+
+case $BLOCK_BUTTON in
+    1) terminator -e ncmpcpp;;
+    3) mpc toggle >/dev/null;;
+    4) mpc prev;;
+    5) mpc next;;
+esac
+

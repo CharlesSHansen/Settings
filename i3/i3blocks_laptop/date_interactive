@@ -1,0 +1,7 @@
+#!/bin/bash
+
+case $BLOCK_BUTTON in
+    1) orage
+esac
+date=$(date '+%A %B %d, %y')
+echo "<span bgcolor='#E82D40'> $date </span>"

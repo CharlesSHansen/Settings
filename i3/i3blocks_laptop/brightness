@@ -1,0 +1,3 @@
+raw=$(xbacklight)
+printf "%.0f" $raw
+echo "%"
