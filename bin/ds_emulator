@@ -1,2 +1,0 @@
-#!/bin/bash
-desmume --disable-limiter --cpu-mode=1 &
